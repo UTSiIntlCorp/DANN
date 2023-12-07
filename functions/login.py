@@ -6,8 +6,8 @@ from datetime import datetime
 import random
 
 
-string loginForm = "UTSI Login"
-string redirectUri = ""
+loginForm = "UTSI Login"
+redirectUri = ""
 
 def get_loginform():
     client = login_form(loginForm, allow_guest=False)
