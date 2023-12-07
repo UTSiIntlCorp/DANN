@@ -23,7 +23,7 @@ gpt_models = [
     "text-davinci-002",
     "text-curie-002"
 ]
-string selectedGPTModel = gpt_models[0]
+selectedGPTModel = gpt_models[0]
 
 #0. Page Config
 st.set_page_config("DANN 2.0", initial_sidebar_state="collapsed", layout="wide")
