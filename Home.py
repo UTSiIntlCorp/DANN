@@ -7,9 +7,10 @@ from openai import OpenAI
 import uuid
 
 
-string companyName = "UTSI"
-string botName = "DANN 2.0 Assistant"
-string pageSummary = "**DANN 2.0** provides a way to quickly learn about previous UTSI projects."
+companyName = "UTSI"
+botName = "DANN 2.0 Assistant"
+pageSummary = "**DANN 2.0** provides a way to quickly learn about previous UTSI projects."
+
 gpt_models = [
     "gpt-3.5-turbo",
     "text-davinci-003",
