@@ -13,17 +13,9 @@ pageSummary = "**DANN 2.0** provides a way to quickly learn about previous UTSI 
 
 gpt_models = [
     "gpt-3.5-turbo",
-    "text-davinci-003",
-    "text-curie-003",
-    "text-babbage-003",
-    "text-gpt-2.5-turbo",
-    "code-davinci-003",
-    "code-curie-003",
-    "code-babbage-003",
-    "text-davinci-002",
-    "text-curie-002"
+    "gpt-3.5-turbo-1106"
 ]
-selectedGPTModel = gpt_models[0]
+selectedGPTModel = gpt_models[1]
 
 #0. Page Config
 st.set_page_config("DANN 2.0", initial_sidebar_state="collapsed", layout="wide")
